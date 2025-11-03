@@ -1,0 +1,36 @@
+# ====================================================================
+# SCRIPT PARA ATUALIZAR REPOSITÓRIO GITHUB
+# ====================================================================
+# Execute estes comandos no terminal dentro da pasta do projeto
+
+# 1. Verificar se git está configurado
+git config --global user.name "Seu Nome"
+git config --global user.email "cristiano.s.santos@ba.estudante.senai.br"
+
+# 2. Inicializar repositório local (se necessário)
+git init
+
+# 3. Adicionar remote do GitHub
+git remote add origin https://github.com/cristiano-superacao/aula_combustivel.git
+
+# 4. Adicionar todos os arquivos
+git add .
+
+# 5. Fazer commit das mudanças
+git commit -m "✨ Adicionar frontend web responsivo e profissional
+
+- Frontend moderno com HTML5, CSS3 e JavaScript
+- API REST Flask para integração
+- PWA (Progressive Web App) instalável
+- Design responsivo para mobile/desktop
+- Tema claro/escuro
+- Cálculo em tempo real
+- Sistema offline com Service Worker
+- Scripts de execução automatizados
+- Documentação completa atualizada"
+
+# 6. Enviar para GitHub
+git push -u origin main
+
+# Se der erro de branch, tente:
+# git push -u origin master

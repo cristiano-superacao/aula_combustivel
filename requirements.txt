@@ -1,0 +1,15 @@
+# Dependências para o Frontend Web do Sistema de Posto de Combustível
+# =====================================================================
+
+# Framework web para API REST
+Flask==2.3.3
+Werkzeug==2.3.7
+
+# CORS para permitir requisições do frontend
+Flask-CORS==4.0.0
+
+# Utilitários adicionais
+python-dateutil==2.8.2
+
+# Para desenvolvimento (opcional)
+python-dotenv==1.0.0
